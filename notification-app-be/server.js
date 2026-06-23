@@ -63,7 +63,7 @@ function sendJson(response, statusCode, body) {
 
 async function readBody(request) {
   const chunks = [];
-  const chunks = [];
+
   for await (const chunk of request) {
     chunks.push(chunk);
   }
