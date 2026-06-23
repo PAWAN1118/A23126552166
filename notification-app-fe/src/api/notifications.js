@@ -4,7 +4,7 @@ const sampleNotifications = [
   {
     id: "n-1",
     title: "Placement drive scheduled",
-    message: "AffordMed placement drive registration is open for eligible students.",
+    message: "Placement drive registration is open for eligible students.",
     type: "Placement",
     read: false,
     createdAt: "2026-06-23T09:30:00.000Z",

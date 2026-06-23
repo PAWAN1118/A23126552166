@@ -46,12 +46,12 @@ function readEnv(name) {
 }
 
 const credentials = {
-  email: readEnv("VITE_AFFORDMED_EMAIL") || readEnv("AFFORDMED_EMAIL"),
-  name: readEnv("VITE_AFFORDMED_NAME") || readEnv("AFFORDMED_NAME"),
-  rollNo: readEnv("VITE_AFFORDMED_ROLL_NO") || readEnv("AFFORDMED_ROLL_NO"),
-  accessCode: readEnv("VITE_AFFORDMED_ACCESS_CODE") || readEnv("AFFORDMED_ACCESS_CODE"),
-  clientID: readEnv("VITE_AFFORDMED_CLIENT_ID") || readEnv("AFFORDMED_CLIENT_ID"),
-  clientSecret: readEnv("VITE_AFFORDMED_CLIENT_SECRET") || readEnv("AFFORDMED_CLIENT_SECRET"),
+  email: readEnv("VITE_TEST_SERVER_EMAIL") || readEnv("TEST_SERVER_EMAIL"),
+  name: readEnv("VITE_TEST_SERVER_NAME") || readEnv("TEST_SERVER_NAME"),
+  rollNo: readEnv("VITE_TEST_SERVER_ROLL_NO") || readEnv("TEST_SERVER_ROLL_NO"),
+  accessCode: readEnv("VITE_TEST_SERVER_ACCESS_CODE") || readEnv("TEST_SERVER_ACCESS_CODE"),
+  clientID: readEnv("VITE_TEST_SERVER_CLIENT_ID") || readEnv("TEST_SERVER_CLIENT_ID"),
+  clientSecret: readEnv("VITE_TEST_SERVER_CLIENT_SECRET") || readEnv("TEST_SERVER_CLIENT_SECRET"),
 };
 
 let tokenCache = {
